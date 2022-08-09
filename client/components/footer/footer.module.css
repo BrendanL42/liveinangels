@@ -1,0 +1,118 @@
+.logo {
+  object-fit: cover;
+}
+
+.footer {
+  padding: 1em;
+  background-color: var(--lightGreen);
+}
+
+.footer li {
+  list-style-type: none;
+  color: var(--yellow);
+}
+.footer a {
+  text-decoration: none;
+  color: var(--off-white);
+}
+
+.footerCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.footerMenu {
+  display: flex;
+
+}
+
+.footerMenu ul {
+  text-align: center;
+  margin: 0 0 2em 0;
+  padding: 0;
+  display: flex;
+}
+
+.line {
+  margin-top: 2.3em;
+  border: none;
+  height: 0.5px;
+  color: rgb(231, 231, 231); 
+  background-color: rgb(231, 231, 231); 
+}
+
+.footerMenu ul li {
+  font-weight: 300;
+  margin: 1em;
+  line-height: 2;
+}
+
+.fBlog {
+  margin: 1em;
+}
+
+.fBlog span {
+  font-size: 0.7em;
+  color: var(--light-blue);
+}
+
+.copyRightArea {
+  text-align: center;
+  margin: 2em auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+  width: 60%;
+}
+
+.copyRightArea a {
+  color: #ffffffa4;
+}
+
+.copyRightCenter {
+  color: #ffffffa4;
+  display: flex;
+  justify-content: center;
+}
+
+.socialLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.content {
+  font-size: 0.8em;
+  font-weight: 200;
+  word-wrap: break-word;
+  width: 220px;
+}
+
+.facebook {
+  color: #4267b2;
+  margin: 1em;
+}
+
+.insta {
+  color: #e1306c;
+  margin: 1em;
+}
+
+@media only screen and (max-width: 680px) {
+  .copyRightArea {
+    width: 100%;
+    justify-content: center;
+  }
+  .copyRightArea li {
+    padding: 1em;
+  }
+}
